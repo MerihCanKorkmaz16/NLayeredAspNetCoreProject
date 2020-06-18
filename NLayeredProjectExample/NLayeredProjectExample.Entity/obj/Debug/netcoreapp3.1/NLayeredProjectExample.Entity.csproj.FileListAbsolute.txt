@@ -1,0 +1,12 @@
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Entity\bin\Debug\netcoreapp3.1\NLayeredProjectExample.Entity.deps.json
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Entity\bin\Debug\netcoreapp3.1\NLayeredProjectExample.Entity.dll
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Entity\bin\Debug\netcoreapp3.1\NLayeredProjectExample.Entity.pdb
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Entity\bin\Debug\netcoreapp3.1\NLayeredProjectExample.Core.dll
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Entity\bin\Debug\netcoreapp3.1\NLayeredProjectExample.Core.pdb
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Entity\obj\Debug\netcoreapp3.1\NLayeredProjectExample.Entity.csprojAssemblyReference.cache
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Entity\obj\Debug\netcoreapp3.1\NLayeredProjectExample.Entity.AssemblyInfoInputs.cache
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Entity\obj\Debug\netcoreapp3.1\NLayeredProjectExample.Entity.AssemblyInfo.cs
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Entity\obj\Debug\netcoreapp3.1\NLayeredProjectExample.Entity.csproj.CoreCompileInputs.cache
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Entity\obj\Debug\netcoreapp3.1\NLayeredProjectExample.Entity.csproj.CopyComplete
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Entity\obj\Debug\netcoreapp3.1\NLayeredProjectExample.Entity.dll
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Entity\obj\Debug\netcoreapp3.1\NLayeredProjectExample.Entity.pdb

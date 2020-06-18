@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zqwWW+9ub30Rx7xGMi1GDcVOPl0BiXov+NVRQbAc6drA2Z3quug/tM6is/LTYzahHHm8mVnW7mcIHqu1JPDRMw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProject.DataAccess\\NLayeredProject.DataAccess.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ass\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

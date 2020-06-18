@@ -5,3 +5,10 @@ C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLa
 C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.DataAccess\obj\Debug\netcoreapp3.1\NLayeredProjectExample.DataAccess.AssemblyInfo.cs
 C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.DataAccess\bin\Debug\netcoreapp3.1\NLayeredProjectExample.Core.dll
 C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.DataAccess\bin\Debug\netcoreapp3.1\NLayeredProjectExample.Entity.dll
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.DataAccess\bin\Debug\netcoreapp3.1\NLayeredProjectExample.DataAccess.pdb
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.DataAccess\bin\Debug\netcoreapp3.1\NLayeredProjectExample.Entity.pdb
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.DataAccess\bin\Debug\netcoreapp3.1\NLayeredProjectExample.Core.pdb
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.DataAccess\obj\Debug\netcoreapp3.1\NLayeredProjectExample.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.DataAccess\obj\Debug\netcoreapp3.1\NLayeredProjectExample.DataAccess.csproj.CopyComplete
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.DataAccess\obj\Debug\netcoreapp3.1\NLayeredProjectExample.DataAccess.dll
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.DataAccess\obj\Debug\netcoreapp3.1\NLayeredProjectExample.DataAccess.pdb

@@ -1,5 +1,8 @@
 C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Core\bin\Debug\netcoreapp3.1\NLayeredProjectExample.Core.deps.json
 C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Core\bin\Debug\netcoreapp3.1\NLayeredProjectExample.Core.dll
-C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Core\obj\Debug\netcoreapp3.1\NLayeredProjectExample.Core.csprojAssemblyReference.cache
 C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Core\obj\Debug\netcoreapp3.1\NLayeredProjectExample.Core.AssemblyInfoInputs.cache
 C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Core\obj\Debug\netcoreapp3.1\NLayeredProjectExample.Core.AssemblyInfo.cs
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Core\bin\Debug\netcoreapp3.1\NLayeredProjectExample.Core.pdb
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Core\obj\Debug\netcoreapp3.1\NLayeredProjectExample.Core.csproj.CoreCompileInputs.cache
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Core\obj\Debug\netcoreapp3.1\NLayeredProjectExample.Core.dll
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Core\obj\Debug\netcoreapp3.1\NLayeredProjectExample.Core.pdb

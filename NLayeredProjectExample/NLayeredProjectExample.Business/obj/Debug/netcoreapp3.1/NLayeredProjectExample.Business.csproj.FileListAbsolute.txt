@@ -1,0 +1,16 @@
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Business\bin\Debug\netcoreapp3.1\NLayeredProjectExample.Business.deps.json
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Business\bin\Debug\netcoreapp3.1\NLayeredProjectExample.Business.dll
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Business\bin\Debug\netcoreapp3.1\NLayeredProjectExample.Business.pdb
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Business\bin\Debug\netcoreapp3.1\NLayeredProjectExample.Core.dll
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Business\bin\Debug\netcoreapp3.1\NLayeredProjectExample.DataAccess.dll
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Business\bin\Debug\netcoreapp3.1\NLayeredProjectExample.Entity.dll
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Business\bin\Debug\netcoreapp3.1\NLayeredProjectExample.DataAccess.pdb
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Business\bin\Debug\netcoreapp3.1\NLayeredProjectExample.Entity.pdb
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Business\bin\Debug\netcoreapp3.1\NLayeredProjectExample.Core.pdb
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Business\obj\Debug\netcoreapp3.1\NLayeredProjectExample.Business.csprojAssemblyReference.cache
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Business\obj\Debug\netcoreapp3.1\NLayeredProjectExample.Business.AssemblyInfoInputs.cache
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Business\obj\Debug\netcoreapp3.1\NLayeredProjectExample.Business.AssemblyInfo.cs
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Business\obj\Debug\netcoreapp3.1\NLayeredProjectExample.Business.csproj.CoreCompileInputs.cache
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Business\obj\Debug\netcoreapp3.1\NLayeredProjectExample.Business.csproj.CopyComplete
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Business\obj\Debug\netcoreapp3.1\NLayeredProjectExample.Business.dll
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProjectExample.Business\obj\Debug\netcoreapp3.1\NLayeredProjectExample.Business.pdb
