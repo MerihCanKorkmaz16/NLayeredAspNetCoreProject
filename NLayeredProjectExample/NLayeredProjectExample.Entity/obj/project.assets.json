@@ -215,6 +215,19 @@
         "runtime": {
           "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
         }
+      },
+      "NLayeredProjectExample.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.5"
+        },
+        "compile": {
+          "bin/placeholder/NLayeredProjectExample.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NLayeredProjectExample.Core.dll": {}
+        }
       }
     }
   },
@@ -629,11 +642,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "NLayeredProjectExample.Core/1.0.0": {
+      "type": "project",
+      "path": "../NLayeredProjectExample.Core/NLayeredProjectExample.Core.csproj",
+      "msbuildProject": "../NLayeredProjectExample.Core/NLayeredProjectExample.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Microsoft.EntityFrameworkCore >= 3.1.5"
+      "NLayeredProjectExample.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -643,11 +661,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.Core\\NLayeredProjectExample.Core.csproj",
-      "projectName": "NLayeredProjectExample.Core",
-      "projectPath": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.Core\\NLayeredProjectExample.Core.csproj",
+      "projectUniqueName": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.Entity\\NLayeredProjectExample.Entity.csproj",
+      "projectName": "NLayeredProjectExample.Entity",
+      "projectPath": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.Entity\\NLayeredProjectExample.Entity.csproj",
       "packagesPath": "C:\\Users\\ass\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.Core\\obj\\",
+      "outputPath": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -665,7 +683,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.Core\\NLayeredProjectExample.Core.csproj": {
+              "projectPath": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.Core\\NLayeredProjectExample.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -676,12 +698,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": {
-            "target": "Package",
-            "version": "[3.1.5, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",

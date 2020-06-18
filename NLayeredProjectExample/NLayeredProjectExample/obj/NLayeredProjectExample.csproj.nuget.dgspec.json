@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.Core\\NLayeredProjectExample.Core.csproj": {}
+    "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample\\NLayeredProjectExample.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.Core\\NLayeredProjectExample.Core.csproj": {
+    "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample\\NLayeredProjectExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.Core\\NLayeredProjectExample.Core.csproj",
-        "projectName": "NLayeredProjectExample.Core",
-        "projectPath": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.Core\\NLayeredProjectExample.Core.csproj",
+        "projectUniqueName": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample\\NLayeredProjectExample.csproj",
+        "projectName": "NLayeredProjectExample",
+        "projectPath": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample\\NLayeredProjectExample.csproj",
         "packagesPath": "C:\\Users\\ass\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.Core\\obj\\",
+        "outputPath": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,12 +40,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.5, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
