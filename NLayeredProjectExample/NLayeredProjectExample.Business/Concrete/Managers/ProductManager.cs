@@ -38,6 +38,11 @@ namespace NLayeredProjectExample.Business.Concrete.Managers
             return _productDal.Get(p=>p.Id == id);
         }
 
+        public Product GetByName(string name)
+        {
+            return _productDal.Get(d=> d.Name == name);
+        }
+
         public List<Product> GetList()
         {
             return _productDal.GetAll();

@@ -14,6 +14,7 @@ namespace NLayeredProjectExample.Business.Abstract
         Task<Product> UpdateAsync(Product product);
         void Delete(Product product);
         Product GetById(int id);
+        Product GetByName(string name);
         List<Product> GetList();
         List<Product> GetListByCategoryId(int categoryId);
 

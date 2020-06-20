@@ -1,0 +1,357 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProject.MvcWebUI\\NLayeredProjectExample.MvcWebUI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProject.MvcWebUI\\NLayeredProjectExample.MvcWebUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProject.MvcWebUI\\NLayeredProjectExample.MvcWebUI.csproj",
+        "projectName": "NLayeredProjectExample.MvcWebUI",
+        "projectPath": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProject.MvcWebUI\\NLayeredProjectExample.MvcWebUI.csproj",
+        "packagesPath": "C:\\Users\\ass\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProject.MvcWebUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ass\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.Business\\NLayeredProjectExample.Business.csproj": {
+                "projectPath": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.Business\\NLayeredProjectExample.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.Business\\NLayeredProjectExample.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.Business\\NLayeredProjectExample.Business.csproj",
+        "projectName": "NLayeredProjectExample.Business",
+        "projectPath": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.Business\\NLayeredProjectExample.Business.csproj",
+        "packagesPath": "C:\\Users\\ass\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ass\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.DataAccess\\NLayeredProjectExample.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.DataAccess\\NLayeredProjectExample.DataAccess.csproj"
+              },
+              "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.Entity\\NLayeredProjectExample.Entity.csproj": {
+                "projectPath": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.Entity\\NLayeredProjectExample.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.Core\\NLayeredProjectExample.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.Core\\NLayeredProjectExample.Core.csproj",
+        "projectName": "NLayeredProjectExample.Core",
+        "projectPath": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.Core\\NLayeredProjectExample.Core.csproj",
+        "packagesPath": "C:\\Users\\ass\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ass\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.DataAccess\\NLayeredProjectExample.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.DataAccess\\NLayeredProjectExample.DataAccess.csproj",
+        "projectName": "NLayeredProjectExample.DataAccess",
+        "projectPath": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.DataAccess\\NLayeredProjectExample.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\ass\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ass\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.Entity\\NLayeredProjectExample.Entity.csproj": {
+                "projectPath": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.Entity\\NLayeredProjectExample.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.Entity\\NLayeredProjectExample.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.Entity\\NLayeredProjectExample.Entity.csproj",
+        "projectName": "NLayeredProjectExample.Entity",
+        "projectPath": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.Entity\\NLayeredProjectExample.Entity.csproj",
+        "packagesPath": "C:\\Users\\ass\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ass\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.Core\\NLayeredProjectExample.Core.csproj": {
+                "projectPath": "C:\\Users\\ass\\Desktop\\GitHub\\NLayeredAspNetCoreProject\\NLayeredProjectExample\\NLayeredProjectExample.Core\\NLayeredProjectExample.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
