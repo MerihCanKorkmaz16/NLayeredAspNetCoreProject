@@ -73,8 +73,8 @@
                             <div class="form-group">
                                 <label for="field-2" class="control-label">CategoryId</label>
                                 <select class="form-control" id="drpCategories" asp-for="@Model.Product.CategoryId" asp-items="@Model.Categories">
-                                        <option disabled selected value="-1">--Choose--</option>
-                                    </select>
+                                    <option disabled selected value="-1">--Choose--</option>
+                                </select>
                             </div>
                             <div class="form-group">
                                 <label for="field-3" class="control-label">Height</label>
@@ -92,10 +92,10 @@
                                 <label for="field-6" class="control-label">Explanation</label>
                                 <textarea asp-for="@Model.Product.Explanation" type="text" class="form-control autogrow" id="field-1" placeholder="Write something about product" style="overflow:hidden;word-wrap:break-word; resize:horizontal; height:104px;"></textarea>
                             </div>
-                            @*<div class="form-group">
-                                    <label for="field-6" class="control-label">Ürün Resim</label>
-                                    <input type="file" asp-items="@Model.FormFiles" name="formFiles" class="dropify" multiple data-show-upload="true" data-height="85" />
-                                </div>*@
+                            <div class="form-group">
+                                <label for="field-6" class="control-label">Ürün Resim</label>
+                                <input type="file" asp-items="@Model.FormFiles" name="formFiles" class="dropify" multiple data-show-upload="true" data-height="85" />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -129,8 +129,8 @@
                                 <div class="form-group">
                                     <label for="field-8" class="control-label">CategoryId</label>
                                     <select class="form-control" id="drpCategoriesForUpdate" asp-for="@Model.Product.CategoryId" asp-items="@Model.Categories">
-                                            <option disabled selected value="-1">--Choose--</option>
-                                        </select>
+                                        <option disabled selected value="-1">--Choose--</option>
+                                    </select>
                                 </div>
                             </div>
                             <div class="form-group">

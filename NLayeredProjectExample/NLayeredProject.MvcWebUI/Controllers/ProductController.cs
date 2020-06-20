@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using NLayeredProjectExample.Business.Abstract;
@@ -14,11 +16,16 @@ namespace NLayeredProjectExample.MvcWebUI.Controllers
     {
         private IProductService _productService;
         private ICategoryService _categoryService;
-        public ProductController(IProductService productService, ICategoryService categoryService)
+        private IProductImageService _productImageService;
+        //root klosörünü kullanmak için
+        private IHostingEnvironment _env;
+        public ProductController(IProductService productService, ICategoryService categoryService, IProductImageService productImageService, IHostingEnvironment env)
         {
             _productService = productService;
             _categoryService = categoryService;
-        }
+            _productImageService = productImageService;
+            _env = env;
+    }
 
         public IActionResult GetProducts()
         {
@@ -39,6 +46,22 @@ namespace NLayeredProjectExample.MvcWebUI.Controllers
                                                }
                                                ).ToList();
             return categories;
+        }
+        public IActionResult GetProductDetail(int id)
+        {
+            if (id > 0)
+            {
+                var productIsValid = _productService.GetById(id);
+                var productImages = _productImageService.GetListProductId(id);
+                var productViewModel = new ProductViewModel
+                {
+                    Product = productIsValid,
+                    ProductImages = productImages,
+                    Categories = LoadCategories()
+                };
+                return View(productViewModel);
+            }
+            return RedirectToAction("GetProducts");
         }
         public IActionResult Add(ProductViewModel productViewModel)
         {
@@ -63,7 +86,28 @@ namespace NLayeredProjectExample.MvcWebUI.Controllers
                 };
                 try
                 {
-                    _productService.Add(productForAdd);
+                    var addedProduct = _productService.Add(productForAdd);
+                    if (productViewModel.FormFiles != null)
+                    {
+                        foreach (var image in productViewModel.FormFiles)
+                        {
+                            var uniqueFileName = Guid.NewGuid().ToString() + "_" + image.FileName;
+                            var filePath = Path.DirectorySeparatorChar.ToString() + "ProductImages" + Path.DirectorySeparatorChar.ToString() + uniqueFileName;
+                            var upLoadsFolder = Path.Combine(_env.WebRootPath, "ProductImages");
+                            var filePathForCopy = Path.Combine(upLoadsFolder, uniqueFileName);
+                            image.CopyTo(new FileStream(filePathForCopy, FileMode.Create));
+
+                            var productImageForAdd = new ProductImage
+                            {
+                                AddedBy = "merih",
+                                AddedDate = DateTime.Now,
+                                ProductId = addedProduct.Id,
+                                FileName = uniqueFileName,
+                                FilePath = filePath
+                            };
+                            _productImageService.Add(productImageForAdd);
+                        }
+                    }
                     return RedirectToAction("GetProducts");
                 }
                 catch (Exception)

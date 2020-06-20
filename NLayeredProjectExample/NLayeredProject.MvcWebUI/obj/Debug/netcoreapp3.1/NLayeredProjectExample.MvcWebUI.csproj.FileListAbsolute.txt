@@ -150,3 +150,4 @@ C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLa
 C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProject.MvcWebUI\bin\Debug\netcoreapp3.1\NLayeredProjectExample.Entity.pdb
 C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProject.MvcWebUI\obj\Debug\netcoreapp3.1\Razor\Views\Category\GetCategories.cshtml.g.cs
 C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProject.MvcWebUI\obj\Debug\netcoreapp3.1\Razor\Views\Product\GetProducts.cshtml.g.cs
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProject.MvcWebUI\obj\Debug\netcoreapp3.1\Razor\Views\Product\GetProductDetail.cshtml.g.cs

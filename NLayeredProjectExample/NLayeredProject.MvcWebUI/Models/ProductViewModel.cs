@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc.Rendering;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using NLayeredProjectExample.Entity.ComplexTypes;
 using NLayeredProjectExample.Entity.Concrete;
 using System;
@@ -13,5 +14,7 @@ namespace NLayeredProjectExample.MvcWebUI.Models
         public List<ProductCategoryComplexData> Products { get; set; }
         public Product Product { get; set; }
         public List<SelectListItem> Categories { get; set; }
+        public List<IFormFile> FormFiles { get; set; }
+        public List<ProductImage> ProductImages { get; set; }
     }
 }

@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\assets\plugins\jstree\themes\default\" />
+    <Folder Include="wwwroot\ProductImages\" />
   </ItemGroup>
 
   <ItemGroup>

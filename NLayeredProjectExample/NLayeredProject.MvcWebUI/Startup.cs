@@ -32,6 +32,9 @@ namespace NLayeredProject.MvcWebUI
 
             services.AddScoped<IProductService, ProductManager>();
             services.AddScoped<IProductDal, EfProductDal>();
+
+            services.AddScoped<IProductImageService, ProductImageManager>();
+            services.AddScoped<IProductImageDal, EfProductImageDal>();
             services.AddControllersWithViews();
         }
 
