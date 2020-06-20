@@ -1,4 +1,5 @@
-﻿using NLayeredProjectExample.Entity.Concrete;
+﻿using NLayeredProjectExample.Entity.ComplexTypes;
+using NLayeredProjectExample.Entity.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Text;

@@ -1,5 +1,6 @@
 ﻿using NLayeredProjectExample.Business.Abstract;
 using NLayeredProjectExample.DataAccess.Abstract;
+using NLayeredProjectExample.Entity.ComplexTypes;
 using NLayeredProjectExample.Entity.Concrete;
 using System;
 using System.Collections.Generic;
@@ -51,6 +52,11 @@ namespace NLayeredProjectExample.Business.Concrete.Managers
         public List<Product> GetListByCategoryId(int categoryId)
         {
             return _productDal.GetAll(p=>p.CategoryId == categoryId);
+        }
+
+        public List<ProductCategoryComplexData> GetProductWithCategory()
+        {
+            return _productDal.GetProductWithCategory();
         }
 
         public Product Update(Product product)

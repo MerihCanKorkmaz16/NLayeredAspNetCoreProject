@@ -1,4 +1,5 @@
-﻿using NLayeredProjectExample.Entity.Concrete;
+﻿using NLayeredProjectExample.Entity.ComplexTypes;
+using NLayeredProjectExample.Entity.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -17,6 +18,7 @@ namespace NLayeredProjectExample.Business.Abstract
         Product GetByName(string name);
         List<Product> GetList();
         List<Product> GetListByCategoryId(int categoryId);
+        List<ProductCategoryComplexData> GetProductWithCategory();
 
     }
 }
