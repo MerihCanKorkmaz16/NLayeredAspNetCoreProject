@@ -155,8 +155,6 @@ C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLa
 C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProject.MvcWebUI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProject.MvcWebUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
 C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProject.MvcWebUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
-C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProject.MvcWebUI\obj\Debug\netcoreapp3.1\NLayeredProjectExample.MvcWebUI.csproj.CoreCompileInputs.cache
-C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProject.MvcWebUI\obj\Debug\netcoreapp3.1\NLayeredProjectExample.MvcWebUI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProject.MvcWebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutSecurity.cshtml.g.cs
 C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProject.MvcWebUI\obj\Debug\netcoreapp3.1\Razor\Views\Security\Login.cshtml.g.cs
 C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProject.MvcWebUI\obj\Debug\netcoreapp3.1\Razor\Views\Security\AccessDenied.cshtml.g.cs
@@ -165,3 +163,8 @@ C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLa
 C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProject.MvcWebUI\obj\Debug\netcoreapp3.1\Razor\Views\Security\ForgotPassword.cshtml.g.cs
 C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProject.MvcWebUI\obj\Debug\netcoreapp3.1\Razor\Views\Security\ConfirmForgotPasswordInfo.cshtml.g.cs
 C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProject.MvcWebUI\obj\Debug\netcoreapp3.1\Razor\Views\Security\ResetPassword.cshtml.g.cs
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProject.MvcWebUI\bin\Debug\netcoreapp3.1\MailKit.dll
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProject.MvcWebUI\bin\Debug\netcoreapp3.1\MimeKit.dll
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProject.MvcWebUI\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProject.MvcWebUI\obj\Debug\netcoreapp3.1\NLayeredProjectExample.MvcWebUI.csproj.CoreCompileInputs.cache
+C:\Users\ass\Desktop\GitHub\NLayeredAspNetCoreProject\NLayeredProjectExample\NLayeredProject.MvcWebUI\obj\Debug\netcoreapp3.1\NLayeredProjectExample.MvcWebUI.MvcApplicationPartsAssemblyInfo.cache

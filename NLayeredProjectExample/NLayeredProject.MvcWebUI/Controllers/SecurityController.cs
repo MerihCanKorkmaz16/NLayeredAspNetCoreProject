@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.Extensions.Configuration;
 using NLayeredProjectExample.MvcWebUI.Identity;
 using NLayeredProjectExample.MvcWebUI.Models.Security;
+using NLayeredProjectExample.MvcWebUI.Services;
 
 namespace NLayeredProjectExample.MvcWebUI.Controllers
 {
@@ -17,13 +18,15 @@ namespace NLayeredProjectExample.MvcWebUI.Controllers
         private RoleManager<AppIdentityRole> _roleManager;
         private SignInManager<AppIdentityUser> _signInManager;
         private IConfiguration _configuration;
+        private IMailService _mailService;
         public SecurityController(UserManager<AppIdentityUser> userManager, RoleManager<AppIdentityRole> roleManager, SignInManager<AppIdentityUser> signInManager,
-            IConfiguration configuration)
+            IConfiguration configuration, IMailService mailService)
         {
             _userManager = userManager;
             _roleManager = roleManager;
             _signInManager = signInManager;
             _configuration = configuration;
+            _mailService = mailService;
         }
         public IActionResult Login()
         {
@@ -91,9 +94,22 @@ namespace NLayeredProjectExample.MvcWebUI.Controllers
                     var projectUrl = _configuration.GetSection("ProjectSettings").GetSection("ProjectUrl").Value;
                     var callBackUrl = projectUrl + Url.Action("ConfirmEmail", "Security", new { userId = user.Id, code = confirmatiobCode.Result });
 
-                    //Kullaniciya mail gonderme
-                   
-
+                    var emailAddressesTo = new List<EmailAdress>();
+                    emailAddressesTo.Add(new EmailAdress { 
+                    Name = registerViewModel.UserName,Address = registerViewModel.Email
+                    });
+                    var emailAddressesFrom = new List<EmailAdress>();
+                    emailAddressesTo.Add(new EmailAdress
+                    {
+                        Name = "Nlayered Project Bilgilendirme",
+                        Address = _configuration.GetSection("EmailConfiguration").GetSection("EmailFrom").Value
+                    });
+                    _mailService.Send(new EmailMessage { 
+                    Content = callBackUrl,
+                    ToAddresses = emailAddressesTo,
+                    Subject = registerViewModel.UserName,
+                    FromAddresses = emailAddressesFrom
+                    });
                     return RedirectToAction("ConfirmEmailInfo", "Security", new { email = user.Email });
                 }
                 return View(registerViewModel);

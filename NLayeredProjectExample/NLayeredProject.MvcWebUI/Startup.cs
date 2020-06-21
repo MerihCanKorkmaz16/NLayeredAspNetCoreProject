@@ -16,6 +16,7 @@ using NLayeredProjectExample.Business.Concrete.Managers;
 using NLayeredProjectExample.DataAccess.Abstract;
 using NLayeredProjectExample.DataAccess.Concrete.EntityFrameworkCore;
 using NLayeredProjectExample.MvcWebUI.Identity;
+using NLayeredProjectExample.MvcWebUI.Services;
 
 namespace NLayeredProject.MvcWebUI
 {
@@ -69,6 +70,8 @@ namespace NLayeredProject.MvcWebUI
                     SecurePolicy = CookieSecurePolicy.SameAsRequest
                 };
             });
+            services.AddScoped<IEmailConfiguration,EmailConfiguration>();
+            services.AddScoped<IMailService, MailManager>();
             services.AddControllersWithViews();
         }
 
