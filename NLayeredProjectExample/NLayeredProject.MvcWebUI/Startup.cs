@@ -4,7 +4,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -12,6 +15,7 @@ using NLayeredProjectExample.Business.Abstract;
 using NLayeredProjectExample.Business.Concrete.Managers;
 using NLayeredProjectExample.DataAccess.Abstract;
 using NLayeredProjectExample.DataAccess.Concrete.EntityFrameworkCore;
+using NLayeredProjectExample.MvcWebUI.Identity;
 
 namespace NLayeredProject.MvcWebUI
 {
@@ -35,6 +39,36 @@ namespace NLayeredProject.MvcWebUI
 
             services.AddScoped<IProductImageService, ProductImageManager>();
             services.AddScoped<IProductImageDal, EfProductImageDal>();
+
+            services.AddDbContext<AppIdentityDbContext>(options => options.UseSqlServer(Configuration["dbConnection"]));
+            services.AddIdentity<AppIdentityUser, AppIdentityRole>().AddEntityFrameworkStores<AppIdentityDbContext>().AddDefaultTokenProviders();
+
+            services.Configure<IdentityOptions>(options => {
+                options.Password.RequireDigit = true;
+                options.Password.RequiredLength = 6;
+                options.Password.RequireLowercase = true;
+                options.Password.RequireUppercase = true;
+                options.Lockout.MaxFailedAccessAttempts = 5;
+                options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(15);
+                options.Lockout.AllowedForNewUsers = true;
+
+                options.User.RequireUniqueEmail = true;
+                options.SignIn.RequireConfirmedEmail = true;
+            });
+            services.ConfigureApplicationCookie(options=> {
+                options.LoginPath = "/Security/Login";
+                options.LogoutPath = "/Security/Logout";
+                options.AccessDeniedPath = "/Security/AccessDenied";
+                options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
+                options.Cookie = new CookieBuilder
+                {
+                    HttpOnly = true,
+                    Name = "Project Cookie",
+                    Path = "/",
+                    SameSite = SameSiteMode.Lax,
+                    SecurePolicy = CookieSecurePolicy.SameAsRequest
+                };
+            });
             services.AddControllersWithViews();
         }
 
@@ -57,7 +91,7 @@ namespace NLayeredProject.MvcWebUI
             app.UseRouting();
 
             app.UseAuthorization();
-
+            app.UseCookiePolicy();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
